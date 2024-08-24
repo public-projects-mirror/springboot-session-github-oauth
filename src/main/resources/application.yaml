@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: dev
+
+#application-dev.yaml
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: your-mysql-url
+#    username: your-mysql-username
+#    password: your-mysql-password
+#  jpa:
+#    database-platform: org.hibernate.dialect.MySQLDialect
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    database: mysql
+#
+#github:
+#  client-id: your-github-client-id
+#  client-secret: your-github-client-secret
+#  redirect-uri: your-github-redirect-uri
